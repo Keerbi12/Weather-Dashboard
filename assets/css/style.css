@@ -1,0 +1,38 @@
+:root {
+    background: white;
+    font-family: sans-serif;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.header {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, blue, rgb(1, 1, 100))
+}
+
+.contentContainer {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: 1fr 2fr;
+}
+
+.contentContainer div:nth-child(even){
+   background-color: red;
+}
+
+.content {
+    background-color: lightblue;
+}
+
+#searchContainer {
+    grid-row: span 2;
+}
+
+
