@@ -16,6 +16,16 @@
     background-image: linear-gradient(to right, blue, rgb(1, 1, 100))
 }
 
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.searchBar {
+    margin-left: 20px;
+}
+
 .contentContainer {
     display: grid;
     row-gap: 10px;
@@ -32,7 +42,10 @@
 }
 
 #searchContainer {
+    display:-moz-stack;
     grid-row: span 2;
+    padding: 10px;
+
 }
 
 
