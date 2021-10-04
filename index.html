@@ -9,23 +9,35 @@
   <body>
     <div class='header'>Weather Dashboard</div>
     <div class='contentContainer'>
-        <div id='searchContainer' class='content'>
-            <p class='title'>Search for a City:</p>
-            <div class='searchElement'>
-                <input id='citySearch' class='searchBar' type='text' placeholder='Enter city here'>
-                <button id='searchButton'>search</button>
-            </div>
-            <button>search</button>
-
-
-            
-        </div>
-        <div id='cityContainer' class='content'>
-            hi
-        </div>
-        <div id='forecastContainer' class='content'>
-            hi
-        </div>
+      <div id='searchContainer' class='content'>
+        <p class='heading'>Search for a City:</p>
+          <!-- <div class='searchElement'>
+              <input id='citySearch' class='searchBar' type='text' placeholder='Enter city here'>
+              <button onclick="submiter()" id='searchButton'>search</button>
+          </div> -->
+        <form class="searchElement">
+          <input type="text" id="cityInput" class="searchBar" placeholder='Enter city here'>
+          <input type="submit" id="citySearch" value="Search" class="searchButton">
+        </form>
+      </div>
+      <div id='cityContainer' class='content'>
+        <p id="city" class="heading">Sydney</p>
+        <p id="temperature" class="sub-heading">12</p>
+        <p id="wind" class="sub-heading">12</p>
+        <p id="humidity" class="sub-heading">12</p>
+        <p id="uvIndex" class="sub-heading">12</p>
+      </div>
+      <div id='forecastContainer' class='content'>
+        <div class="cards" id="card1">1</div>
+        <div class="cards" id="card2">1</div>
+        <div class="cards" id="card3">1</div>
+        <div class="cards" id="card4">1</div>
+        <div class="cards" id="card5">1</div>
+      </div>
+      <div id='savedCities' class='content'>
+        hi
+      </div>
     </div>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>

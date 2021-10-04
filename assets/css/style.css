@@ -61,7 +61,16 @@
     font-size: 16px;
 }
 
-.forcastContainer {
+#forecastContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background: red;
+}
 
+.cards {
+    background: lightblue;
+    padding: 10px;
+    margin: 5px;
+    
 }
 
